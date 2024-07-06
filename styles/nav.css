@@ -1,0 +1,25 @@
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 15px;
+    padding: 10px;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+nav li:hover{
+    background-color: lightseagreen;
+}
+/* nasted menu style */
+nav li .deep{
+    display: none;
+    position: absolute;
+    background-color: crimson;
+    padding-left: 10px;
+}
+nav li:hover > .deep{
+    display: block;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="styles/nav.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="video.html" target="_blank">video</a></li>
+          <li><a href="table.html" target="_blank">Table</a></li>
+          <li><a href="blog.html" target="_blank">Blog</a></li>
+          <li>
+            <a href="form.html" target="_blank">Form</a>
+            <ul class="deep">
+              <li><a href="video.html" target="_blank">video</a></li>
+              <li><a href="table.html" target="_blank">Table</a></li>
+              <li><a href="blog.html" target="_blank">Blog</a></li>
+              <li><a href="form.html" target="_blank">Form</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Please fill up the form</h2>
+        <form>
+          <label for="name"> <b>Your Name :</b></label>
+          <input type="text" id="name" placeholder="type your name" />
+          <br /><br />
+          <label for="me"><b>Your Email :</b></label>
+          <input id="me" type="text" placeholder="your emai address" />
+          <br /><br />
+          <label for="num"><b>Your phone :</b></label>
+          <input type="text" id="num" placeholder="enter your number" />
+          <fieldset>
+            <legend>Pic one thing</legend>
+            <label for="chitoy">
+              <input type="radio" name="pie" id="chitoy" /> Chitoy
+            </label>
+            <label for="vapa">
+              <input type="radio" name="pie" id="vapa" /> Vapa
+            </label>
+            <label for="ruti">
+              <input type="radio" name="pie" id="ruti" /> Ruti
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>Pic one or more team</legend>
+            <label for="your">
+              <input type="checkbox" name="" id="your" /> Bangladesh
+            </label>
+            <label for="our">
+              <input type="checkbox" name="" id="our" />Australia
+            </label>
+            <label for="his">
+              <input type="checkbox" name="" id="his" />England
+            </label>
+          </fieldset>
+          <br />
+          <fieldset>
+            <label for="Vitae">
+              your birth date
+              <input type="date" name="" id="Vitae" />
+            </label>
+            <label for="paisi">
+              <input type="week" name="" id="paisi" />
+            </label>
+          </fieldset>
+          <label for="age">
+            select your age
+            <input max="20" min="10" type="number" name="" id="age" />
+          </label>
+        </form>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
